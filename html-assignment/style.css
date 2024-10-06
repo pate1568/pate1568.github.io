@@ -1,0 +1,48 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif; /* Change the font family */
+    font-size: 18px; /* Increase font size */
+}
+
+/* Header and Footer styling */
+header, footer {
+    background-color: #f0f0f0; /* Set background color for header and footer */
+    padding: 10px; /* Add padding for better spacing */
+}
+
+/* Class selector for main heading */
+.site-title {
+    color: #333; /* Change color of the main heading */
+}
+
+/* ID selector for image */
+#my-image {
+    box-shadow: 0 0 2px 1px black; /* Add box-shadow to the image */
+}
+
+/* Hobbies list styling */
+ul {
+    list-style-type: square; /* Change bullets to squares */
+}
+
+ul li:nth-child(odd) {
+    background-color: #e0e0e0; /* Background color for odd list items */
+}
+
+/* Navigation styling */
+nav ul {
+    list-style-type: none; /* Remove bullets from navigation */
+    padding: 0; /* Remove default padding */
+}
+
+nav a {
+    text-decoration: none; /* Remove underline from links */
+    background-color: #007BFF; /* Add background to links */
+    color: white; /* Change text color */
+    padding: 5px 10px; /* Add padding for better spacing */
+    border-radius: 5px; /* Add border radius for rounded corners */
+}
+
+nav a:hover, nav a:focus {
+    background-color: #0056b3; /* Change background color on hover/focus */
+}

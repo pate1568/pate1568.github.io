@@ -4,22 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mihir Patel's Webpage</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to the CSS file -->
 </head>
 <body>
     <!-- Header -->
     <header>
-        <h1>Mihir Patel</h1>
+        <h1 class="site-title">Mihir Patel</h1> <!-- Class added -->
         <!-- Navigation -->
         <nav>
-            <a href="index.html">Home</a> |
-            <a href="notes.html">Notes</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="notes.html">Notes</a></li>
+            </ul>
         </nav>
     </header>
 
     <!-- Article about you -->
     <article>
         <h2>About Me</h2>
-        <img src="images/myphoto.png" alt="Mihir Patel's photo" style="width:200px;height:auto;">
+        <img src="images/myphoto.jpg" alt="Mihir Patel's photo" id="my-image" style="width:200px;height:auto;"> <!-- ID added -->
         <p>I am currently pursuing the <abbr title="Interactive Media Design">IMD</abbr> course at <em>Algonquin College</em>, where I am learning about web development, multimedia design, and interactive technologies. My passion lies in creating visually appealing and user-friendly digital experiences.</p>
         
         <p>In my free time, I enjoy exploring new design trends, working on creative projects, and enhancing my skills in multimedia tools and web development frameworks. I believe that design is about storytelling, and I strive to create meaningful and engaging content.</p>
